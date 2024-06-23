@@ -105,7 +105,7 @@ def eval_your_results(
 
     Args:
     - your_results_path (str): Path to your results file
-    - video_types (Optional[List[str], str]): List of video types to evaluate. 
+    - video_types (Optional[List[str], str]): List of video types to evaluate. "short", "medium", "long"
     - skip_missing (Optional[bool]): If True, missing files will be skipped. If False, an error will be raised if there are missing files.
     - return_categories_accuracy (Optional[bool]): If True, the accuracy for each video category will be returned.
     - return_sub_categories_accuracy (Optional[bool]): If True, the accuracy for each video sub category will be returned.
