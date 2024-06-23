@@ -73,6 +73,10 @@ def extract_characters_regex(s):
         "The correct option is",
         "Best answer:"
         "Best option:",
+        "Answer:",
+        "Option:",
+        "The correct answer",
+        "The correct option",
     ]
     for answer_prefix in answer_prefixes:
         s = s.replace(answer_prefix, "")
